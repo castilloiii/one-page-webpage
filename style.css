@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url(fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+.navbar-nav a {
+  font-family: "Montserrat";
+}
+
+.overview,
+.bs-cpe,
+.specializations {
+  font-family: "Montserrat", sans-serif;
+}
+
+.card img {
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+}
+
+.overview,
+.what-we-do,
+.org {
+  background-color: #2f2e41;
+}
+.what-we-do .card img {
+  filter: brightness(0.3);
+  padding: 0;
+}
+
+.what-we-do .card-body {
+  padding: 0;
+}
+
+.specializations .card img {
+  height: 300px;
+}
+
+.org button {
+  background-color: #003366;
+}
